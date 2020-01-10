@@ -13,6 +13,7 @@
 ## If a variable is stored using the makeCacheMatrix function, for example myMatrix <- makeCacheMatrix (1:4, 2,2),
 ## then the matrix that was used when the function was called, and its inverse, will be part of the environment 
 ## of myMatrix, as well as the list of 4 functions set, get, setinv and getinv
+## The four functions which are part  of the list are getters and setters for the matrix and for its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
         s <- NULL
